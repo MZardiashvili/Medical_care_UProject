@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/Doctor_Mike_Icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- start of the header -->
+    <header>
+      <div class="container">
+        <div class="top-header">
+          <ul>
+            <li><a href="#">Emergency Services</a></li>
+            <li><a href="#">Appointment</a></li>
+            <li><a href="#">healthcare@med.com</a></li>
+            <li>
+              <img
+                src="images/phone-icon.png"
+                alt="phone-icon"
+                class="phone-icon"
+              />
+            </li>
+            <li>+12 345 678 9892</li>
+            <!-- <li><a href="#" class="login-button" id="button">Sign in</a></li> -->
+          </ul>
+        </div>
+        <div class="logo">
+          <a href="index.php"><img src="images/logo.png" alt="logo" /></a>
+        </div>
+        <div class="menu" id="myTopnav">
+          <a href="index.php">home</a>
+          <a href="about.html">about</a>
+          <a href="doctors.html">doctor</a>
+          <a href="services.html">services</a>
+          <a href="news.html" class="active">news</a>
+          <a href="contact.html">contact</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+          <div class="search-container">
+            <div class="container">
+              <input type="text" placeholder="Search.." name="search" />
+              <button type="submit" class="search">
+                <i class="fa fa-search"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end of the header -->
+    <!-- Start of the NEWS -->
+    <div class="popup" style="margin-top: -20%;">
+      <div class="popup-content">
+        <img
+          src="images/iconfinder_icon-close_211652.png"
+          alt="close"
+          class="close"
+        />
+        <img src="images/stock_people.png" alt="user" />
+        <input type="text" placeholder="Username" />
+        <input type="password" placeholder="Password" />
+        <a href="#" class="login-button">Sign in</a>
+      </div>
+    </div>
+    <div class="news-container">
+      <h1 class="news-title">Medical News Today</h1>
+      <div class="news-row">
+        <div class="column-66">
+          <h2 class="xlarge-font">
+            New COVID-19 antibody test may reflect virus immunity more
+            accurately
+          </h2>
+          <p>
+            A new type of antibody test may reveal whether someone has developed
+            strong immunity to the virus that causes COVID-19. The test may also
+            be much less likely to give false-positive results.<span id="dots"
+              >...</span
+            ><span id="more"
+              >In the weeks after the emergence of SARS-CoV-2, the coronavirus
+              that causes COVID-19, many companies rapidly developed tests, or
+              assays, for detecting antibodies to the virus. Unlike assays that
+              detect the virus itself, antibody tests are meant to indicate
+              whether someone has already had the infection and developed
+              immunity to it. However, there are concerns that a past infection
+              may not necessarily confer strong immunity to future infections.
+              In addition, people may test positive as a result of previous
+              encounters with other coronaviruses, such as some of those that
+              cause the common cold.</span
+            >
+          </p>
+          <button onclick="myFunction()" id="myBtn" class="button">
+            Read more
+          </button>
+        </div>
+        <div class="column-33">
+          <img
+            src="images/GettyImages-1225589972-1024x683.jpg"
+            width="335"
+            height="471"
+            alt=""
+            class="news-img"
+          />
+        </div>
+      </div>
+      <div class="news-row">
+        <div class="column-33">
+          <img
+            src="images/GettyImages-520456984-1024x681.jpg"
+            alt=""
+            width="335"
+            height="471"
+            class="news-img"
+          />
+        </div>
+        <div class="column-66">
+          <h2 class="xlarge-font">
+            Brain ‘atlas’ maps mouse synapses over time
+          </h2>
+          <p>
+            Scientists have created an “atlas” of synapses in the mouse brain,
+            potentially helping other researchers better understand neurological
+            disorders in humans...
+          </p>
+          <button class="button">Read more</button>
+        </div>
+      </div>
+      <div class="news-row">
+        <div class="column-66">
+          <h2 class="xlarge-font">
+            Air pollution decreased in China during initial response to COVID-19
+          </h2>
+          <p>
+            Nitrogen dioxide levels in China ebbed after the outbreak of
+            SARS-CoV-2, particularly after the outbreak was first announced and
+            when lockdown measures were introduced...
+          </p>
+          <button class="button">Read more</button>
+        </div>
+        <div class="column-33">
+          <img
+            src="images/GettyImages-568700487-1024x711.jpg"
+            width="335"
+            height="471"
+            class="news-img"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <div class="pagination">
+      <a href="#">&laquo;</a>
+      <a class="active" href="#">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">5</a>
+      <a href="#">6</a>
+      <a href="#">&raquo;</a>
+    </div>
+    <!-- End of the NEWS -->
+    <!-- START OF THE FOOTER -->
+    <footer>
+      <div class="footer-area">
+        <div class="left box">
+          <h3>about us</h3>
+          <div class="footer-content">
+            <div class="about">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                illum eum eaque, eius sapiente veniam minus laborum beatae.
+                Quisquam, dolores veniam? Alias ipsum suscipit itaque fuga quasi
+                odit officiis repellendus?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="center box">
+          <h3>We're available</h3>
+          <div class="footer-content">
+            <ul>
+              <li>
+                <span>Monday – Thursday</span>
+                <span>8.00 – 19.00</span>
+              </li>
+              <li>
+                <span>Friday</span>
+                <span>8.00 - 18.30</span>
+              </li>
+              <li>
+                <span>Saturday</span>
+                <span>9.30 – 17.00</span>
+              </li>
+              <li>
+                <span>Sunday</span>
+                <span>9.30 – 15.00</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="right box">
+          <h3><a href="contact.html">Contact US</a></h3>
+          <div class="footer-content">
+            <form action="#">
+              <div class="footer-email">
+                <label for="email">Email *</label>
+                <input type="email" id="email" required />
+              </div>
+              <div class="msg">
+                <label for="message">Message *</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  cols="25"
+                  rows="2"
+                  required
+                ></textarea>
+              </div>
+              <div class="btn">
+                <button type="submit">Send</button>
+              </div>
+            </form>
+          </div>
+          <div class="social">
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/" target="_blank"
+                  ><img
+                    src="images/fb-footer.png"
+                    alt="facebook"
+                    style="height: 24px; width: 24px;" /></a
+                >Facebook
+              </li>
+              <li>
+                <a href="https://twitter.com/explore" target="_blank"
+                  ><img
+                    src="images/twitter-footer.png"
+                    alt="twitter"
+                    style="height: 24px; width: 24px;" /></a
+                >Twitter
+              </li>
+              <li>
+                <a href="https://www.pinterest.com/" target="_blank"
+                  ><img
+                    src="images/pinterest-footer.png"
+                    alt="pinterest"
+                    style="height: 24px; width: 24px;" /></a
+                >Pinterest
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/" target="_blank"
+                  ><img
+                    src="images/In-footer.png"
+                    alt="LinkedIn"
+                    style="height: 24px; width: 24px;" /></a
+                >LinkedIn
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- END OF THE FOOTER -->
+
+    <!-- <script>
+      document.getElementById("button").addEventListener("click", function () {
+        document.querySelector(".popup").style.display = "flex";
+      });
+      document.querySelector(".close").addEventListener("click", function () {
+        document.querySelector(".popup").style.display = "none";
+      });
+    </script> -->
+
+    <script>
+      function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
+      }
+    </script>
+  </body>
+</html>

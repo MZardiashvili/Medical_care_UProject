@@ -1,0 +1,46 @@
+name :
+Email :
+Password :
+Fullname :
+Username :nata12
+Email :natashengelia1@gmail.com
+user_type :
+Password :
+Fullname :
+Username :Tamari
+Email :tamarnasrashvili1@gmail.com
+user_type :
+Password :
+Fullname :
+Username :tamari1
+Email :natashengelia@gmail.com
+user_type :
+Password :
+Fullname :
+Username :nanuka_23
+Email :dolidze@gmail.com
+user_type :
+Password :
+Fullname :nata shengelia
+Username :nata1
+Email :shengelianata@gmail.com
+user_type :user
+Password :123
+Fullname :giorgi zardiashvili
+Username :giorgi
+Email :zardiashvili@gmail.com
+user_type :user
+Password :123
+name :mariami
+Email :mariamizardiashvili@gmail.com
+Password :mariami
+Fullname :nana peikrishvili
+Username :nana_123
+Email :nanapeikrishvili@gmail.com
+user_type :user
+Password :nana
+Fullname :Mariam Zardiashvili
+Username :admin
+Email :adminadmin@gmail.com
+user_type :admin
+Password :adminadmin
